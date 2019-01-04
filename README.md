@@ -15,6 +15,6 @@ For example, if the date today is 2019-01-04, it will return all IDs that have a
 
 It then converts the returned IDs to string format, and stores them into an array.
 
-This array is then passed into a function that utilizes Slack API to send messages to each person respectively. The message is customizable.
+This array is then passed into a function that utilizes <a href="https://github.com/slackapi/python-slackclient">Slack API</a>  to send messages to each person respectively. The message is customizable.
 
 The program can be used in conjunction with crontab for full automation.
