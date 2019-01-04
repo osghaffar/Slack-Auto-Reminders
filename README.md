@@ -9,7 +9,7 @@ Compiled a list of every active member's exam dates in YYYY-MM-DD format, along 
 | 13254  | 2019-01-07  | 2019-01-10  | 2019-01-15  |
 | 54321  | 2019-01-08  | 2019-01-10  | 2019-01-17  |
 
-The program first uses the Pandas library, and specifically the ```query``` function, to find all dates that match 3 days from today (in other words, a person that has an exam in 3 days). 
+The program uses the Pandas library to read the CSV and uses the ```query``` function to find all dates that match 3 days from today (in other words, a person that has an exam in 3 days). 
 
 For example, if the date today is 2019-01-04, it will return all IDs that have an exam on 2019-01-07. On 2019-01-05, it will return all IDs that have an exam on 2019-01-08, and so on.
 
