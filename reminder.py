@@ -15,9 +15,10 @@ print("Date to check for: ", checkdate)
 #this format can be used for however many columns there are
 ID = df[df['Exam 1'] == checkdate]['ID']
 ID2 = df[df['Exam 2'] == checkdate]['ID']
+ID3 = df[df['Exam 3'] == checkdate]['ID']
 
 #store the returned IDs into an array
-IDs = [ID, ID2]
+IDs = [ID, ID2, ID3]
 IDs = pd.concat(IDs)
 
 #convert this array to string format
