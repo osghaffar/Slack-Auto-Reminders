@@ -5,7 +5,7 @@ from slackclient import SlackClient
 slack_token = SlackToken #enter your slack token here
 sc = SlackClient(slack_token)
 
-df = pd.read_csv("/Users/Documents/slackIDS.csv")
+df = pd.read_csv("/Users/Documents/slackIDS.csv") #change this to your specific filepath
 
 today = date.today() #2019-01-04
 checkdate = str(today + timedelta(days=3)) #2019-01-07
